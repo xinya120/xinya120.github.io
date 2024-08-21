@@ -1,0 +1,336 @@
+
+
+
+body{
+	background-color: cornflowerblue;
+}
+
+#img1{
+    width : 1470px;
+    height: 250px; 
+}
+
+#barre {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+  }
+  
+  .li_barre {
+    float: left;
+  }
+  
+  .button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+    font-size: 20px;
+  }
+
+
+
+#nom_prenom {
+   
+	
+    height: 60px;
+	width: 90%;
+	
+    float:left;
+    resize: none;
+
+    float:left;
+    align-content:left  ;
+    overflow:auto;
+    resize: none;
+
+    font-size: 50px;/*la taille de la police*/
+    font-weight: bold;/*police en gras ou normal, ici en gras*/
+    background-color: cornflowerblue;
+	color:black;
+	border-style:none; /*pour enlever le bordure*/
+	margin-top: 25px;/*pour sauter à la ligne en haut avec un espacement de 25px*/
+
+}
+
+#moncv {
+   
+	
+    height: 100px;
+	width: 90%;
+	
+    float:left;
+    resize: none;
+
+    float:left;
+    align-content:left  ;
+    overflow:auto;
+    resize: none;
+
+    font-size: 30px;/*la taille de la police*/
+    font-weight: bold;/*police en gras ou normal, ici en gras*/
+    background-color: cornflowerblue;
+	color:black;
+	border-style:none; /*pour enlever le bordure*/
+
+}
+
+
+#presentation {
+
+    height: 400px; /*à 400px pour ne pas avoir la roulade, car le texte est long*/
+	width: 100%;
+	
+	float:left;
+    resize: none;
+
+    float:left;
+    align-content:left  ;
+    overflow:auto;
+    resize: none;
+
+    font-size: 25px;
+    font-weight: normal;/*police normal*/
+    background-color: cornflowerblue;
+	color:black;
+	border-style:none; /*pour enlever le bordure*/
+	text-align:justify;
+	text-justify:inter-word;
+}
+
+
+
+/*pour la page competence*/
+
+
+#case1{
+	height: 300px;
+	width: 31%;/*la taille de bloc*/
+	float:left;/*aligner dans la meme ligne pour les 3 blocs*/
+	margin-right:10px;/*espacement entre les blocs*/
+	margin-top: 40px;/*pour sauter à la ligne en haut avec un espacement de 40px*/
+	margin-bottom:40px;/*pour sauter à la ligne en bas avec un espacement de 40px*/
+}
+
+#case2{
+	height: 300px;
+	width: 31%;
+	float:left;
+	margin-right:10px;
+    margin-top: 40px;/*pour sauter à la ligne en haut avec un espacement de 40px*/
+	margin-bottom:40px;/*pour sauter à la ligne en bas avec un espacement de 40px*/
+}
+
+#case3{
+	height: 300px;
+	width: 31%;
+	float:left;
+	margin-top: 40px;/*pour sauter à la ligne en haut avec un espacement de 40px*/
+	margin-bottom:40px;/*pour sauter à la ligne en bas avec un espacement de 40px*/
+  
+}
+
+
+
+
+.titre_liste{	
+	height: 20%;/*la taille,ici hauteur de la case consacrer pour le titre*/:
+	width: 100%;
+	
+	border:2px solid black;
+	background-color: white;
+	
+	text-align:center;
+    font-size: 30px;/*la taille de police*/
+    font-weight: bold;	
+}
+
+.liste_comp{
+	height: 80%;/*la taille de la case consacrer pour le bloc de liste competence*/:
+	width: 100%;
+	
+	margin:0;
+	padding:0;/*margin et padding =0 pour dire qu'il n'y a pas d'espacement entre le bloc titre et le bloc competence*/
+	
+	border:2px solid black;
+	background-color: white;
+	font-weight:bold;/*rendre les titre gras*/
+	font-size: 25px;
+	
+}
+
+.li_comp{
+	font-size: 20px;
+	font-weight:normal;/*rendre les points normal, pas en gras*/
+}
+
+
+ /*pour la page projet*/
+ 
+
+/*p_info pour projet info*/
+#p_info{
+	height:550px;/*pas width car par defaut c'est 100%, si on veut personaliser il faut width*/
+	margin-bottom:50px;/*taille d'espace entre les blocs*/
+	margin-top: 40px;/*pour sauter à la ligne en haut avec un espacement de 40px*/
+}
+
+/*p_stat pour projet stat*/
+#p_stat{
+	height:500px;/*height c'est la taille de hauteur soit aire de la carée*/
+	margin-bottom:50px;
+	margin-top: 450px;/*pour sauter à la ligne en haut avec un espacement de 40px*/
+}
+
+/*p_autre pour autre projet*/
+#p_autre{
+	height:250px;/*c pour la taille de bloc (hateur)*/
+	margin-bottom:50px;
+	margin-top: 450px;/*pour sauter à la ligne en haut avec un espacement de 40px*/
+}
+
+
+/*titre_liste_proj c'est pour les trois titres: ici, projets en info... projets en stat... et autres projets*/
+.titre_liste_proj{
+	height: 20%;/*la taille,ici hauteur de la case consacrer pour le titre*/
+	max-height:60px;
+	width: 50%;
+	
+	border:2px solid black;
+	background-color: white;
+	
+	text-align:center;
+    font-size: 30px;/*la taille de police*/
+    font-weight: bold;	
+}
+
+
+ /*pour la page parcours*/
+ 
+
+
+/*pour img2: parcours scolaire*/
+#img2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 40px;/*pour sauter à la ligne en haut avec un espacement de 40px*/
+}
+
+
+
+#premier_container{
+	margin-top:40px;/*ajouter de ligne d'en haut*/
+}
+
+
+
+/*pour la page stage*/
+ 
+ /*pour img3: logo URCEST*/
+#img3{
+	
+	width: 10%;
+	margin-top: 40px;/*pour sauter à la ligne en haut avec un espacement de 40px*/
+}
+
+#rappstage {
+    height: 100px;
+	width: 90%;
+	margin-top:0px;
+    float:left;
+    resize: none;
+
+    float:left;
+    align-content:left  ;
+    overflow:auto;
+    resize: none;
+
+    font-size: 30px;/*la taille de la police*/
+    font-weight: bold;/*police en gras ou normal, ici en gras*/
+    background-color: cornflowerblue;
+	color:black;
+	border-style:none; /*pour enlever le bordure*/
+}
+
+
+/*pour img4: logo hopital saint-antoine*/
+#img4{ width : 400px;
+    height: 200px; 
+	
+}
+
+
+
+/*pour la page contact*/
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.f {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 30px; /*pour sauter les lignes entre différents container*/
+}
+
+
+
+/* pour le formulaire */
+.form-container {
+    position: relative;
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.form-container .form-content {
+    background-color: #FFEBCD;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-container .form-content h1 {
+    margin-bottom: 25px; /* Ajouter de l'espace entre le titre et le formulaire */
+}
+
+.form-container .form-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.form-container .form-content form label {
+    margin-bottom: 10px; /* Espacement entre les libellés et les champs de saisie */
+}
+
+.form-container .form-content form input[type="text"],
+.form-container .form-content form input[type="email"],
+.form-container .form-content form textarea {
+    width: 100%;
+    padding: 15px; /* Augmenter la taille de la barre de saisie */
+    margin-bottom: 16px;
+    border: 1px solid #000000	;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.form-container .form-content form input[type="submit"] {
+    padding: 14px 20px; 
+}
+

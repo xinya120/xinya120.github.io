@@ -1,0 +1,91 @@
+<!doctype html>
+
+
+<html>
+
+    <head>
+
+        <title> Monporfolio_BingxinYE </title>
+
+        <meta charset="utf-8"> 
+
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">    
+    
+    </head> 
+
+    <body>
+
+        <header>
+			    <img id="img1" src="image/image1.png">
+        </header>
+
+			<ul id="barre" > 
+<!-- class dans css viser par un pt -->
+<!-- id dans css viser par un # -->
+                <li class="li_barre"><a class="button" href="index.html">Accueil</a></li>
+
+                <li class="li_barre"><a class="button" href="competence.html">Compétences</a></li>
+
+                <li class="li_barre"><a class="button" href="projets.html">Projets</a></li>
+
+                <li class="li_barre"><a class="button" href="parcours.html">Parcours</a></li>
+				
+				<li class="li_barre"><a class="button" href="stage.html">Stage</a></li>
+                
+                <li class="li_barre"><a class="button" href="contacts.html">Contacts</a></li>
+
+			</ul>
+        <div> 
+		
+		
+			<!-- container c'est pour associer logo et texte -->
+			<div id="premier_container" class="container">   
+                <img class="logo" src="image/icone_mail.jpg">
+                <div class="f"> bingxin.ye@etu.paris </div>
+            </div>
+			
+           <!-- logo c'est pour personaliser les logos et f pour personaliser les textes qui sont à coté du logo -->
+            <div class="container">   
+                <img class="logo" src="image/icone_link.png">
+                <div class="f"> <a href="https://www.linkedin.com/in/bingxin-y-61b044274/">Linkedin_Bingxin</a> </div>
+            </div>
+           
+            <div class="container">   
+                <img class="logo" src="image/icone_adrese.png">
+                <div class="f"> France </div>
+            </div>
+
+            <div class="container">   
+                <img class="logo" src="image/icone_tel.png">
+                <div class="f"> 07 82 53 12 17 </div>
+            </div>
+
+            <div class="container">   
+                <img class="logo" src="image/icone_cv.jpg">
+                <div class="f"> <a href="image/CV_YE_Bingxin.pdf">CV en PDF</a> </div>
+            </div>
+			
+			<!-- Formulaire -->
+			<div class="form-container">
+				<div class="form-content">
+					<h1>Formulaire de contact</h1>
+					<form action="/action_page.php">
+						<label for="fname">NOM Prénom</label>
+						<input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+						
+						<label for="emailAddress">Email</label>
+						<input id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+						<label for="sujet">Sujet</label>
+						<input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+
+						<label for="subject">Message</label>
+						<textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+
+						<input type="submit" value="Envoyer">
+					</form>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
